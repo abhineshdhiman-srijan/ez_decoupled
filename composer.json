@@ -1,0 +1,22 @@
+{
+    "name": "drupal/ezcontent-decoupled",
+    "description": "Enable api support and preview feature for decoupled apps",
+    "keywords": [
+        "ezcontent",
+        "preview",
+        "Drupal"
+    ],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/ezcontent_api":"^2.3"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
