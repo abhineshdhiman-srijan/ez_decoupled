@@ -1,6 +1,9 @@
 name: Ezcontent Decoupled
 description: 'Improves Drupal core JSON API experience which supports decoupled apps.'
-
+recipes:
+  - ezcontent_content_type
+  - ezcontent-blocks-recipe
+  - ezcontent-publish-recipe
 install:
   - ezcontent_api
   - ezcontent_preview
