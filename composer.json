@@ -11,12 +11,6 @@
     "require": {
         "drupal/ezcontent_api":"^2.3"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
